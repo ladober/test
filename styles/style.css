@@ -1,0 +1,160 @@
+.header-wrapper {
+    background-image: url(../img/fallback-img-sm.png);
+    height: 243px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.header-wrapper-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 291px;
+}
+
+.logo {
+    position: relative;
+    top: 26px;
+    left: 20px;
+}
+
+.header-wrapper-h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+    position: absolute;
+    top: 260px;
+    left: 20px;
+}
+
+.content-span {
+    color: #747474;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.header-wrapper-div p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 18px;
+    position: absolute;
+    top: 345px;
+    left: 20px;
+}
+
+.director {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 15px;
+    position: absolute;
+    top: 425px;
+    left: 20px;
+}
+
+.header-wrapper-a {
+    position: absolute;
+    top: 475px;
+    left: 20px;
+}
+
+/* main article-1 */
+
+.section {
+    margin-top: 80px;
+}
+
+.section h1 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    left: 20px;
+}
+
+.section-items {
+    margin: 0 19px;
+}
+
+.section-items a {
+    padding: 4px;
+}
+
+/* section article-2 */
+
+.section-article-2 {
+    margin-top: 80px;
+}
+
+.section-article-2 h1 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: white;
+    position: absolute;
+    top: 1100px;
+    left: 20px;
+}
+
+/* vanbar */
+
+.navbar {
+    background-color: #131313;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.navbar a {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 80px;
+    background-image:url(../img/gif-cinema-sm.png);
+    background-repeat:no-repeat;
+    height: 305px;
+    background-size:cover;
+}
+
+.footer h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: white;
+    position: absolute;
+    top: 1760px;
+    left: 27px;
+}
+
+.footer p {
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+    line-height: 18px;
+    position: absolute;
+    top: 1800px;
+    left: 27px;
+}
+
+.footer-navbar {
+    background-color:black;
+}
+
+.footer-navbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 53px;
+}

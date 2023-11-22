@@ -1,0 +1,79 @@
+@media all and (min-width: 375px){
+    .navbar {
+        display: none;
+    }
+}
+
+@media all and (min-width: 768px ) {
+    .header-wrapper {
+        background-image: url(../img/fallback-img-md.png);
+        margin-left: 64px;
+        height: 365px;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+
+    .navbar {
+        display: inline;
+        background-color: #131313;
+        height: 100%;
+        width: 64px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    .header-wrapper-div{
+        margin-left: 64px;
+    }
+    .logo {
+        display: none;
+    }
+
+    .section {
+        margin-left: 64px;
+    }
+
+    .section-article-2 {
+        margin-left: 64px;
+    }
+
+    .footer {
+        margin-left: 64px;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .header-wrapper {
+        background-image: url(../img/fallback-img.png);
+        height: 544px;
+        margin-left: 100px;
+    }
+
+    .navbar {
+        display: inline;
+        background-color: #131313;
+        height: 100%;
+        width: 106px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .header-wrapper-div{
+        margin-left: 106px;
+    }
+
+    .section {
+        margin-left: 106px;
+    }
+
+    .section-article-2 {
+        margin-left: 106px;
+    }
+
+    .footer {
+        margin-left: 106px;
+    }
+}
