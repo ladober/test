@@ -1,3 +1,5 @@
+/* header */
+
 .header-wrapper {
     background-image: url(../img/fallback-img-sm.png);
     height: 243px;
@@ -19,7 +21,7 @@
     left: 20px;
 }
 
-.header-wrapper-h1 {
+.content-title {
     color: white;
     font-weight: 400;
     font-size: 4rem;
@@ -37,7 +39,7 @@
     font-weight: 400;
 }
 
-.header-wrapper-div p {
+.content-p {
     color: white;
     font-size: 1rem;
     font-weight: 300;
@@ -57,7 +59,7 @@
     left: 20px;
 }
 
-.header-wrapper-a {
+.watch-btn {
     position: absolute;
     top: 475px;
     left: 20px;
@@ -66,42 +68,42 @@
 /* main article-1 */
 
 .section {
-    margin-top: 80px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .section h1 {
     font-weight: 500;
     font-size: 1.6rem;
     color: white;
-    position: absolute;
-    bottom: 200px;
-    left: 20px;
+    padding-bottom: 40px;
 }
 
-.section-items {
-    margin: 0 19px;
-}
-
-.section-items a {
-    padding: 4px;
+.section a {
+    padding: 2px;
 }
 
 /* section article-2 */
 
 .section-article-2 {
-    margin-top: 80px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .section-article-2 h1 {
     font-weight: 500;
     font-size: 1.6rem;
     color: white;
-    position: absolute;
-    top: 1100px;
-    left: 20px;
+    padding-bottom: 40px;
 }
 
-/* vanbar */
+.section-article-2 a {
+    padding: 2px;
+}
+
+/* navbar */
 
 .navbar {
     background-color: #131313;
@@ -133,19 +135,26 @@
     font-weight: 800;
     font-size: 2.5rem;
     color: white;
-    position: absolute;
-    top: 1760px;
-    left: 27px;
+    padding-top: 40px;
+    margin-left: 27px;
 }
 
-.footer p {
+.footer article {
     font-weight: 300;
     font-size: 1rem;
     color: white;
     line-height: 18px;
-    position: absolute;
-    top: 1800px;
-    left: 27px;
+    padding-top: 40px;
+    margin-left: 27px;
+}
+
+.footer p {
+    font-weight: 300;
+    font-size: 3rem;
+    color: white;
+    line-height: 18px;
+    margin-top: 50px;
+    margin-left: 27px;
 }
 
 .footer-navbar {
